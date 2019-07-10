@@ -4,7 +4,7 @@ language: en
 slug: /
 ---
 
-# Simplicity, Hugo theme.
+# うーりー日誌.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
