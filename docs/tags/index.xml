@@ -1,0 +1,94 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Simplicity - Hugo theme</title>
+    <link>https://y-matsuura.github.io/woolyblog/tags/</link>
+    <description>Recent content in Tags on Simplicity - Hugo theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 06 Jan 2019 12:17:01 +0200</lastBuildDate>
+    
+      <atom:link href="https://y-matsuura.github.io/woolyblog/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>elements</title>
+        <link>https://y-matsuura.github.io/woolyblog/tags/elements/</link>
+        <pubDate>Sun, 06 Jan 2019 12:17:01 +0200</pubDate>
+        <guid>https://y-matsuura.github.io/woolyblog/tags/elements/</guid>
+        <description></description>
+      </item>
+    
+      <item>
+        <title>typography</title>
+        <link>https://y-matsuura.github.io/woolyblog/tags/typography/</link>
+        <pubDate>Sun, 06 Jan 2019 12:17:01 +0200</pubDate>
+        <guid>https://y-matsuura.github.io/woolyblog/tags/typography/</guid>
+        <description></description>
+      </item>
+    
+      <item>
+        <title>images</title>
+        <link>https://y-matsuura.github.io/woolyblog/tags/images/</link>
+        <pubDate>Sat, 11 Mar 2017 10:15:01 +0200</pubDate>
+        <guid>https://y-matsuura.github.io/woolyblog/tags/images/</guid>
+        <description></description>
+      </item>
+    
+      <item>
+        <title>lightbox</title>
+        <link>https://y-matsuura.github.io/woolyblog/tags/lightbox/</link>
+        <pubDate>Sat, 11 Mar 2017 10:15:01 +0200</pubDate>
+        <guid>https://y-matsuura.github.io/woolyblog/tags/lightbox/</guid>
+        <description></description>
+      </item>
+    
+      <item>
+        <title>development</title>
+        <link>https://y-matsuura.github.io/woolyblog/tags/development/</link>
+        <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+        <guid>https://y-matsuura.github.io/woolyblog/tags/development/</guid>
+        <description></description>
+      </item>
+    
+      <item>
+        <title>go</title>
+        <link>https://y-matsuura.github.io/woolyblog/tags/go/</link>
+        <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+        <guid>https://y-matsuura.github.io/woolyblog/tags/go/</guid>
+        <description></description>
+      </item>
+    
+      <item>
+        <title>golang</title>
+        <link>https://y-matsuura.github.io/woolyblog/tags/golang/</link>
+        <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+        <guid>https://y-matsuura.github.io/woolyblog/tags/golang/</guid>
+        <description></description>
+      </item>
+    
+      <item>
+        <title>hugo</title>
+        <link>https://y-matsuura.github.io/woolyblog/tags/hugo/</link>
+        <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+        <guid>https://y-matsuura.github.io/woolyblog/tags/hugo/</guid>
+        <description></description>
+      </item>
+    
+      <item>
+        <title>templates</title>
+        <link>https://y-matsuura.github.io/woolyblog/tags/templates/</link>
+        <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+        <guid>https://y-matsuura.github.io/woolyblog/tags/templates/</guid>
+        <description></description>
+      </item>
+    
+      <item>
+        <title>themes</title>
+        <link>https://y-matsuura.github.io/woolyblog/tags/themes/</link>
+        <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+        <guid>https://y-matsuura.github.io/woolyblog/tags/themes/</guid>
+        <description></description>
+      </item>
+    
+  </channel>
+</rss>

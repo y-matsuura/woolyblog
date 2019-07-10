@@ -1,0 +1,46 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Simplicity - Hugo theme</title>
+    <link>https://y-matsuura.github.io/woolyblog/categories/</link>
+    <description>Recent content in Categories on Simplicity - Hugo theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 06 Jan 2019 12:17:01 +0200</lastBuildDate>
+    
+      <atom:link href="https://y-matsuura.github.io/woolyblog/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>writing</title>
+        <link>https://y-matsuura.github.io/woolyblog/categories/writing/</link>
+        <pubDate>Sun, 06 Jan 2019 12:17:01 +0200</pubDate>
+        <guid>https://y-matsuura.github.io/woolyblog/categories/writing/</guid>
+        <description></description>
+      </item>
+    
+      <item>
+        <title>lorem-ipsum</title>
+        <link>https://y-matsuura.github.io/woolyblog/categories/lorem-ipsum/</link>
+        <pubDate>Fri, 11 Nov 2016 10:15:01 +0200</pubDate>
+        <guid>https://y-matsuura.github.io/woolyblog/categories/lorem-ipsum/</guid>
+        <description></description>
+      </item>
+    
+      <item>
+        <title>Development</title>
+        <link>https://y-matsuura.github.io/woolyblog/categories/development/</link>
+        <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+        <guid>https://y-matsuura.github.io/woolyblog/categories/development/</guid>
+        <description></description>
+      </item>
+    
+      <item>
+        <title>golang</title>
+        <link>https://y-matsuura.github.io/woolyblog/categories/golang/</link>
+        <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+        <guid>https://y-matsuura.github.io/woolyblog/categories/golang/</guid>
+        <description></description>
+      </item>
+    
+  </channel>
+</rss>
