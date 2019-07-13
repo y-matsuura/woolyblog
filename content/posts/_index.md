@@ -1,5 +1,5 @@
 ---
-title: List of posts
+title: Guest of posts
 language: en
 slug: /posts/
 ---
