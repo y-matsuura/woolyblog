@@ -5,10 +5,19 @@
     <description>Recent content in Guest of posts on Simplicity - Hugo theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Jan 2019 12:17:01 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jul 2019 00:00:00 +0000</lastBuildDate>
     
       <atom:link href="https://y-matsuura.github.io/woolyblog/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>Test Blog</title>
+        <link>https://y-matsuura.github.io/woolyblog/2019/07/11/numbered-list-with-code/</link>
+        <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
+        <guid>https://y-matsuura.github.io/woolyblog/2019/07/11/numbered-list-with-code/</guid>
+        <description> テスト１ テスト２ テスト３ テスト４ 強調
+文強調  </description>
+      </item>
     
       <item>
         <title>Numbered list with code</title>
