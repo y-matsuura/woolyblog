@@ -3,7 +3,7 @@
   <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ubuntu に linuxbrew をインストールする - Simplicity - Hugo theme</title>
+  <title>ubuntu で linuxbrew を使って opencv をインストールしてみた - Simplicity - Hugo theme</title>
   <meta name="author" content="Przemysław `eshlox` Kołodziejczyk">
   <meta name="description" content="A blog about everything.">
 
@@ -32,7 +32,7 @@
   <link href="../../../../posts/index.xml" rel="alternate" type="application/rss+xml" title="Simplicity - Hugo theme" />
   <link href="../../../../posts/index.xml" rel="alternate" type="application/rss+xml" title="Simplicity - Hugo theme" />
 
-  <meta property="og:title" content="ubuntu に linuxbrew をインストールする" />
+  <meta property="og:title" content="ubuntu で linuxbrew を使って opencv をインストールしてみた" />
 <meta property="og:description" content="はじめに ubuntu で opencv をインストールしたときのメモです。 apt install でインストールするのは大変だと書いてあったので 今回は linuxbrew を利用する方法を試みました。
 下記を主に参考にさせていただきました https://qiita.com/thermes/items/926b478ff6e3758ecfea https://github.com/Linuxbrew/brew https://docs.brew.sh/Homebrew-on-Linux  必要と思われるパッケージをインストールする 注意 ここでインストールしたパッケージがすべて必要かどうかが検証できていません。 検証できましたら更新させていただきます。
 $ sudo apt install build-essential curl git m4 ruby texinfo libbz2-dev libcurl4-openssl-dev libexpat-dev libncurses-dev zlib1g-dev gettext  linuxbrew をインストールする $ sh -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)&quot;
@@ -44,7 +44,7 @@ $ sudo apt install build-essential curl git m4 ruby texinfo libbz2-dev libcurl4-
 
   
   
-<meta itemprop="name" content="ubuntu に linuxbrew をインストールする">
+<meta itemprop="name" content="ubuntu で linuxbrew を使って opencv をインストールしてみた">
 <meta itemprop="description" content="はじめに ubuntu で opencv をインストールしたときのメモです。 apt install でインストールするのは大変だと書いてあったので 今回は linuxbrew を利用する方法を試みました。
 下記を主に参考にさせていただきました https://qiita.com/thermes/items/926b478ff6e3758ecfea https://github.com/Linuxbrew/brew https://docs.brew.sh/Homebrew-on-Linux  必要と思われるパッケージをインストールする 注意 ここでインストールしたパッケージがすべて必要かどうかが検証できていません。 検証できましたら更新させていただきます。
 $ sudo apt install build-essential curl git m4 ruby texinfo libbz2-dev libcurl4-openssl-dev libexpat-dev libncurses-dev zlib1g-dev gettext  linuxbrew をインストールする $ sh -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)&quot;
@@ -60,7 +60,7 @@ $ sudo apt install build-essential curl git m4 ruby texinfo libbz2-dev libcurl4-
 <meta itemprop="keywords" content="typography,elements," />
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="ubuntu に linuxbrew をインストールする"/>
+<meta name="twitter:title" content="ubuntu で linuxbrew を使って opencv をインストールしてみた"/>
 <meta name="twitter:description" content="はじめに ubuntu で opencv をインストールしたときのメモです。 apt install でインストールするのは大変だと書いてあったので 今回は linuxbrew を利用する方法を試みました。
 下記を主に参考にさせていただきました https://qiita.com/thermes/items/926b478ff6e3758ecfea https://github.com/Linuxbrew/brew https://docs.brew.sh/Homebrew-on-Linux  必要と思われるパッケージをインストールする 注意 ここでインストールしたパッケージがすべて必要かどうかが検証できていません。 検証できましたら更新させていただきます。
 $ sudo apt install build-essential curl git m4 ruby texinfo libbz2-dev libcurl4-openssl-dev libexpat-dev libncurses-dev zlib1g-dev gettext  linuxbrew をインストールする $ sh -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)&quot;
@@ -88,26 +88,26 @@ $ sudo apt install build-essential curl git m4 ruby texinfo libbz2-dev libcurl4-
             
             <a href="../../../../categories/writing">WRITING</a>
           </small>
-      <h1>ubuntu に linuxbrew をインストールする</h1>
+      <h1>ubuntu で linuxbrew を使って opencv をインストールしてみた</h1>
     </header>
     <section>
 
-<h1 id="はじめに">はじめに</h1>
+<h2 id="はじめに">はじめに</h2>
 
 <p>ubuntu で opencv をインストールしたときのメモです。
 apt install でインストールするのは大変だと書いてあったので
 今回は linuxbrew を利用する方法を試みました。</p>
 
-<h1 id="下記を主に参考にさせていただきました">下記を主に参考にさせていただきました</h1>
+<h2 id="下記を主に参考にさせていただきました">下記を主に参考にさせていただきました</h2>
 
 <pre><code>https://qiita.com/thermes/items/926b478ff6e3758ecfea
 https://github.com/Linuxbrew/brew
 https://docs.brew.sh/Homebrew-on-Linux
 </code></pre>
 
-<h1 id="必要と思われるパッケージをインストールする">必要と思われるパッケージをインストールする</h1>
+<h2 id="必要と思われるパッケージをインストールする">必要と思われるパッケージをインストールする</h2>
 
-<h2 id="注意">注意</h2>
+<h3 id="注意">注意</h3>
 
 <p>ここでインストールしたパッケージがすべて必要かどうかが検証できていません。
 検証できましたら更新させていただきます。</p>
@@ -115,11 +115,11 @@ https://docs.brew.sh/Homebrew-on-Linux
 <pre><code>$ sudo apt install build-essential curl git m4 ruby texinfo libbz2-dev libcurl4-openssl-dev libexpat-dev libncurses-dev zlib1g-dev gettext
 </code></pre>
 
-<h1 id="linuxbrew-をインストールする">linuxbrew をインストールする</h1>
+<h2 id="linuxbrew-をインストールする">linuxbrew をインストールする</h2>
 
 <p><code>$ sh -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)&quot;</code></p>
 
-<h1 id="パスを通す">パスを通す</h1>
+<h2 id="パスを通す">パスを通す</h2>
 
 <pre><code>$ test -d ~/.linuxbrew &amp;&amp; eval $(~/.linuxbrew/bin/brew shellenv)
 $ test -d /home/linuxbrew/.linuxbrew &amp;&amp; eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
@@ -128,25 +128,25 @@ $ echo &quot;eval \$($(brew --prefix)/bin/brew shellenv)&quot; &gt;&gt;~/.profil
 
 </code></pre>
 
-<h1 id="確認する">確認する</h1>
+<h2 id="確認する">確認する</h2>
 
-<h2 id="エラーでなければokか">エラーでなければOKか？</h2>
+<h3 id="エラーでなければokか">エラーでなければOKか？</h3>
 
 <p><code>$ brew doctor</code></p>
 
-<h2 id="hello-をインストールしてみる">hello をインストールしてみる</h2>
+<h3 id="hello-をインストールしてみる">hello をインストールしてみる</h3>
 
 <p><code>$ brew install hello</code></p>
 
-<h2 id="インストールできない場合は下記を試してみる">インストールできない場合は下記を試してみる</h2>
+<h3 id="インストールできない場合は下記を試してみる">インストールできない場合は下記を試してみる</h3>
 
 <pre><code>$ sudo mkdir -p /home/linuxbrew/.linuxbrew/var/homebrew/linked
 $ sudo chown -R $(whoami) /home/linuxbrew/.linuxbrew/var/homebrew/linked
 </code></pre>
 
-<h1 id="その他">その他</h1>
+<h2 id="その他">その他</h2>
 
-<h2 id="パスの設定をするとあるが必要なのだろうか-わたしの環境では実行していません-検証できましたら更新させていただきます">パスの設定をするとあるが必要なのだろうか？わたしの環境では実行していません。検証できましたら更新させていただきます。</h2>
+<h3 id="パスの設定をするとあるが必要なのだろうか-わたしの環境では実行していません-検証できましたら更新させていただきます">パスの設定をするとあるが必要なのだろうか？わたしの環境では実行していません。検証できましたら更新させていただきます。</h3>
 
 <pre><code>$ export PATH=&quot;$HOME/.linuxbrew/bin:$PATH&quot;
 $ export MANPATH=&quot;$HOME/.linuxbrew/share/man:$MANPATH&quot;
@@ -154,11 +154,11 @@ $ export INFOPATH=&quot;$HOME/.linuxbrew/share/info:$INFOPATH&quot;
 $ export LD_LIBRARY_PATH=&quot;$HOME/.linuxbrew/lib:$LD_LIBRARY_PATH&quot;
 </code></pre>
 
-<h1 id="linuxbrew-で-opencv-をインストールする">linuxbrew で opencv をインストールする</h1>
+<h2 id="linuxbrew-で-opencv-をインストールする">linuxbrew で opencv をインストールする</h2>
 
 <p><code>$ brew install opencv</code></p>
 
-<h1 id="さいごに">さいごに</h1>
+<h2 id="さいごに">さいごに</h2>
 
 <p>いかがでしょう？ linuxbrew さえインストールできてしまえば、opencv のインストールは簡単にできました。まだまだ粗いですが、今後はもっと改善していきたいと思います。最後まで読んでいただいてありがとうございました。</p>
 </section>
