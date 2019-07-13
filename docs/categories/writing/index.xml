@@ -5,18 +5,20 @@
     <description>Recent content in writing on Simplicity - Hugo theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jul 2019 00:00:00 +0000</lastBuildDate>
     
       <atom:link href="https://y-matsuura.github.io/woolyblog/categories/writing/index.xml" rel="self" type="application/rss+xml" />
     
     
       <item>
-        <title>Test Blog</title>
-        <link>https://y-matsuura.github.io/woolyblog/2019/07/11/numbered-list-with-code/</link>
-        <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-        <guid>https://y-matsuura.github.io/woolyblog/2019/07/11/numbered-list-with-code/</guid>
-        <description> テスト１ テスト２ テスト３ テスト４ 強調
-文強調  </description>
+        <title>ubuntu に linuxbrew をインストールする</title>
+        <link>https://y-matsuura.github.io/woolyblog/2019/07/13/numbered-list-with-code/</link>
+        <pubDate>Sat, 13 Jul 2019 00:00:00 +0000</pubDate>
+        <guid>https://y-matsuura.github.io/woolyblog/2019/07/13/numbered-list-with-code/</guid>
+        <description>はじめに ubuntu で opencv をインストールしたときのメモです。 apt install でインストールするのは大変だと書いてあったので 今回は linuxbrew を利用する方法を試みました。
+下記を主に参考にさせていただきました https://qiita.com/thermes/items/926b478ff6e3758ecfea https://github.com/Linuxbrew/brew https://docs.brew.sh/Homebrew-on-Linux  必要と思われるパッケージをインストールする 注意 ここでインストールしたパッケージがすべて必要かどうかが検証できていません。 検証できましたら更新させていただきます。
+$ sudo apt install build-essential curl git m4 ruby texinfo libbz2-dev libcurl4-openssl-dev libexpat-dev libncurses-dev zlib1g-dev gettext  linuxbrew をインストールする $ sh -c &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)&amp;quot;
+パスを通す $ test -d ~/.linuxbrew &amp;amp;&amp;amp; eval $(~/.linuxbrew/bin/brew shellenv) $ test -d /home/linuxbrew/.linuxbrew &amp;amp;&amp;amp; eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv) $ test -r ~/.bash_profile &amp;amp;&amp;amp; echo &amp;quot;eval \$($(brew --prefix)/bin/brew shellenv)&amp;quot; &amp;gt;&amp;gt;~/.</description>
       </item>
     
       <item>
@@ -27,103 +29,6 @@
         <description> Test 1.
 test 1  Test 2.  test 2 Test 3.
 test 3  </description>
-      </item>
-    
-      <item>
-        <title>Youtube</title>
-        <link>https://y-matsuura.github.io/woolyblog/2018/10/09/youtube/</link>
-        <pubDate>Tue, 09 Oct 2018 10:15:01 +0200</pubDate>
-        <guid>https://y-matsuura.github.io/woolyblog/2018/10/09/youtube/</guid>
-        <description>{{&amp;lt; youtube wwKBHrMy-Wc &amp;gt;}}   </description>
-      </item>
-    
-      <item>
-        <title>Vimeo</title>
-        <link>https://y-matsuura.github.io/woolyblog/2018/09/09/vimeo/</link>
-        <pubDate>Sun, 09 Sep 2018 10:15:01 +0200</pubDate>
-        <guid>https://y-matsuura.github.io/woolyblog/2018/09/09/vimeo/</guid>
-        <description>{{&amp;lt; vimeo 265143954 &amp;gt;}}   </description>
-      </item>
-    
-      <item>
-        <title>Video</title>
-        <link>https://y-matsuura.github.io/woolyblog/2018/06/09/video/</link>
-        <pubDate>Sat, 09 Jun 2018 10:15:01 +0200</pubDate>
-        <guid>https://y-matsuura.github.io/woolyblog/2018/06/09/video/</guid>
-        <description>{{&amp;lt; video src=&amp;#34;media/video.mp4&amp;#34; &amp;gt;}} Your browser does not support the video tag.  </description>
-      </item>
-    
-      <item>
-        <title>Typography</title>
-        <link>https://y-matsuura.github.io/woolyblog/2018/03/09/typography/</link>
-        <pubDate>Fri, 09 Mar 2018 10:15:01 +0200</pubDate>
-        <guid>https://y-matsuura.github.io/woolyblog/2018/03/09/typography/</guid>
-        <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit 😉. Nullam nibh lorem, porta ut urna ut, scelerisque consequat magna. Pellentesque vel massa sed tortor cursus tempus at eget ligula. Duis leo odio, luctus eget suscipit vel, pharetra id velit. Mauris arcu enim, mollis placerat porta in, sagittis a nisl. Nam et augue eu justo porta tincidunt. In luctus nisl dolor, sed aliquet augue elementum eget. Vivamus laoreet, mauris vitae aliquam faucibus, tellus dolor feugiat felis, ac facilisis diam eros eget est.</description>
-      </item>
-    
-      <item>
-        <title>Twitter</title>
-        <link>https://y-matsuura.github.io/woolyblog/2018/02/09/twitter/</link>
-        <pubDate>Fri, 09 Feb 2018 10:15:01 +0200</pubDate>
-        <guid>https://y-matsuura.github.io/woolyblog/2018/02/09/twitter/</guid>
-        <description>{{&amp;lt; tweet 935115588166471680 &amp;gt;}} Hugo 0.31.1 Just Released:https://t.co/876ahdkJm4 @bepsays #gohugo #golang #webdev #staticgen
-&amp;mdash; GoHugo.io (@GoHugoIO) November 27, 2017  </description>
-      </item>
-    
-      <item>
-        <title>Tables</title>
-        <link>https://y-matsuura.github.io/woolyblog/2018/01/09/tables/</link>
-        <pubDate>Tue, 09 Jan 2018 10:15:01 +0200</pubDate>
-        <guid>https://y-matsuura.github.io/woolyblog/2018/01/09/tables/</guid>
-        <description>   First Header Second Header Third Header     Content Cell Content Cell Content Cell   Content Cell Content Cell Content Cell       First Header Second Header     Content Cell Content Cell   Content Cell Content Cell       First Header Second Header Third Header     Left Center Right   Left Center Right       &amp;nbsp; &amp;nbsp; &amp;nbsp;     Left Center Right   Left Center Right    </description>
-      </item>
-    
-      <item>
-        <title>Speakerdeck</title>
-        <link>https://y-matsuura.github.io/woolyblog/2017/07/09/speakerdeck/</link>
-        <pubDate>Sun, 09 Jul 2017 10:15:01 +0200</pubDate>
-        <guid>https://y-matsuura.github.io/woolyblog/2017/07/09/speakerdeck/</guid>
-        <description>{{&amp;lt; speakerdeck 50021f75cf1db900020005e7 &amp;gt;}}   </description>
-      </item>
-    
-      <item>
-        <title>Instagram</title>
-        <link>https://y-matsuura.github.io/woolyblog/2017/04/09/instagram/</link>
-        <pubDate>Sun, 09 Apr 2017 10:15:01 +0200</pubDate>
-        <guid>https://y-matsuura.github.io/woolyblog/2017/04/09/instagram/</guid>
-        <description>{{&amp;lt; instagram BbTLbYSH59J &amp;gt;}}    View this post on Instagram        Throwback Thursday: On November 9, 1967, the uncrewed Apollo 4 test flight made a great ellipse around Earth as a test of the translunar motors and of the high speed entry required of a crewed flight returning from the Moon. A 70mm camera was programmed to look out a window toward Earth, and take a series of photographs from &amp;#34;high apogee.</description>
-      </item>
-    
-      <item>
-        <title>Images</title>
-        <link>https://y-matsuura.github.io/woolyblog/2017/03/11/images/</link>
-        <pubDate>Sat, 11 Mar 2017 10:15:01 +0200</pubDate>
-        <guid>https://y-matsuura.github.io/woolyblog/2017/03/11/images/</guid>
-        <description>Use markdown to display an image.
-![Alt text](/media/image-1.jpg &amp;#34;Photo by Ales Krivec on Unsplash&amp;#34;) Result:
-You can use image shortcode to insert an image which automatically generates additional five sizes of image for various display sizes.
-Example code:
-{{&amp;lt; image src=&amp;#34;media/image-1.jpg&amp;#34; &amp;gt;}} Result:
-  You can insert image with caption.
-Example code:
-{{&amp;lt; image src=&amp;#34;media/image-1.jpg&amp;#34; title=&amp;#34;Photo by Ales Krivec on Unsplash&amp;#34; &amp;gt;}} Result:
- Photo by Ales Krivec on Unsplash  You can add lightbox=&amp;quot;true&amp;quot; parameter to use lightbox plugin.</description>
-      </item>
-    
-      <item>
-        <title>Gist</title>
-        <link>https://y-matsuura.github.io/woolyblog/2017/02/09/gist/</link>
-        <pubDate>Thu, 09 Feb 2017 10:15:01 +0200</pubDate>
-        <guid>https://y-matsuura.github.io/woolyblog/2017/02/09/gist/</guid>
-        <description>{{&amp;lt; gist spf13 7896402 &amp;gt;}}  </description>
-      </item>
-    
-      <item>
-        <title>Code</title>
-        <link>https://y-matsuura.github.io/woolyblog/2017/01/09/code/</link>
-        <pubDate>Mon, 09 Jan 2017 10:15:01 +0200</pubDate>
-        <guid>https://y-matsuura.github.io/woolyblog/2017/01/09/code/</guid>
-        <description>import os # Very long line, very long line, very long line, very long line, very long line, very long line, very long line, very long line. filename = os.environ.get(&#39;PYTHONSTARTUP&#39;) if filename and os.path.isfile(filename): with open(filename) as fobj: startup_file = fobj.read() exec(startup_file)  import os # Very long line, very long line, very long line, very long line, very long line, very long line, very long line, very long line. filename = os.</description>
       </item>
     
   </channel>
