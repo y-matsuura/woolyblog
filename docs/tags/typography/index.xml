@@ -17,8 +17,7 @@
         <guid>https://y-matsuura.github.io/woolyblog/2019/07/13/numbered-list-with-code/</guid>
         <description>はじめに ubuntu で opencv をインストールしたときのメモです。 apt install でインストールするのは大変だと書いてあったので 今回は linuxbrew を利用する方法を試みました。
 下記を主に参考にさせていただきました https://qiita.com/thermes/items/926b478ff6e3758ecfea https://github.com/Linuxbrew/brew https://docs.brew.sh/Homebrew-on-Linux  必要と思われるパッケージをインストールする 注意 ここでインストールしたパッケージがすべて必要かどうかが検証できていません。 検証できましたら更新させていただきます。
-$ sudo apt install build-essential curl git m4 ruby texinfo libbz2-dev libcurl4-openssl-dev libexpat-dev libncurses-dev zlib1g-dev gettext  linuxbrew をインストールする $ sh -c &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)&amp;quot;
-パスを通す $ test -d ~/.linuxbrew &amp;amp;&amp;amp; eval $(~/.linuxbrew/bin/brew shellenv) $ test -d /home/linuxbrew/.linuxbrew &amp;amp;&amp;amp; eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv) $ test -r ~/.bash_profile &amp;amp;&amp;amp; echo &amp;quot;eval \$($(brew --prefix)/bin/brew shellenv)&amp;quot; &amp;gt;&amp;gt;~/.</description>
+$ sudo apt install build-essential curl git m4 ruby texinfo libbz2-dev libcurl4-openssl-dev libexpat-dev libncurses-dev zlib1g-dev gettext  linuxbrew をインストールする $ sh -c &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)&amp;quot;  パスを通す $ test -d ~/.linuxbrew &amp;amp;&amp;amp; eval $(~/.linuxbrew/bin/brew shellenv) $ test -d /home/linuxbrew/.linuxbrew &amp;amp;&amp;amp; eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv) $ test -r ~/.bash_profile &amp;amp;&amp;amp; echo &amp;quot;eval \$($(brew --prefix)/bin/brew shellenv)&amp;quot; &amp;gt;&amp;gt;~/.</description>
       </item>
     
       <item>

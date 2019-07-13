@@ -28,7 +28,9 @@ $ sudo apt install build-essential curl git m4 ruby texinfo libbz2-dev libcurl4-
 ```
 
 ## linuxbrew をインストールする
-`$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"`
+```
+$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
+```
 
 ## パスを通す
 ```
@@ -41,10 +43,14 @@ $ echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.profile
 
 ## 確認する
 ### エラーでなければOKか？
-`$ brew doctor`
+```
+$ brew doctor
+```
 
 ### hello をインストールしてみる
-`$ brew install hello`
+```
+$ brew install hello
+```
 
 ### インストールできない場合は下記を試してみる
 ```
@@ -62,7 +68,9 @@ $ export LD_LIBRARY_PATH="$HOME/.linuxbrew/lib:$LD_LIBRARY_PATH"
 ```
 
 ## linuxbrew で opencv をインストールする
-`$ brew install opencv`
+```
+$ brew install opencv
+```
 
 ## さいごに
 いかがでしょう？ linuxbrew さえインストールできてしまえば、opencv のインストールは簡単にできました。まだまだ粗いですが、今後はもっと改善していきたいと思います。最後まで読んでいただいてありがとうございました。
